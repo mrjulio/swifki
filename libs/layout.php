@@ -16,11 +16,11 @@
     <div id="sidebar">
         <input id="search" type="text" placeholder="search in files..." />
         <div id="menu">
-            <? echo $menu ?>
+            <?php echo $menu ?>
         </div>
     </div>
     <div id="template">
-        <p class="breadcrumbs"><? echo $breadcrumbs ?></p>
+        <p class="breadcrumbs"><?php echo $breadcrumbs ?></p>
         <div id="toc"><span id="toggle-toc">Contents: (+/-)</span><br/><div id="table-of-contents"></div></div>
         <?php include $template ?>
     </div>
