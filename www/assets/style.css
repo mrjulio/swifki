@@ -1,0 +1,162 @@
+#container {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    padding: 8px;
+    min-height: 400px;
+    position: relative;
+    font-size: 14px;
+}
+
+#sidebar {
+    width: 20%;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#search {
+    padding: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 8px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#menu {
+    display: none;
+    background-color: #fff;
+}
+
+#menu .active_page {
+    font-weight: bold;
+}
+
+#template {
+    width: 75%;
+    float: right;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 12px;
+    background-color: #fff;
+}
+
+#template table {
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #0af;
+}
+
+a:visited {
+    color: #08c;
+}
+
+.red {
+    color: #f00;
+    font-weight: bold;
+}
+
+/* Table of contents */
+#toc {
+    padding: 4px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+#toc a {
+    display: block;
+}
+
+#toc a[title="H1"] {
+    margin-left: 12px;
+}
+#toc a[title="H2"] {
+    margin-left: 32px;
+}
+#toc a[title="H3"] {
+    margin-left: 52px;
+}
+
+#toggle-toc {
+    cursor: pointer;
+}
+
+/* CUSTOM GESHI */
+.bash, .ini, .nginx {
+    border: 2px solid #CCC;
+    background-color: #000;
+    color: #FFF;
+    padding: 4px;
+}
+#container .bash .kw1,
+#container .bash .co3,
+#container .bash .sy0,
+#container .bash .nu0,
+#container .ini .kw1,
+#container .ini .co3,
+#container .ini .sy0,
+#container .ini .nu0 {
+    color: #FFF;
+}
+
+#container .bash .re5 {
+    color: #B10044;
+    font-weight: bold;
+}
+
+#container .ini .re0,
+#container .ini .re1,
+#container .nginx .kw3 {
+    color: #0080FF;
+}
+
+/** PHP **/
+#container .php .kw1,
+#container .php .kw2,
+#container .php .kw3,
+#container .php .nu0 {
+    color: #0000BB;
+}
+#container .php .br0,
+#container .php .sy0 {
+    color: #000;
+}
+#container .php .st0,
+#container .php .st_h {
+    color: #DD0000;
+}
+#container .php .re0 {
+    color: #0066CC;
+    font-weight: bold;
+}
