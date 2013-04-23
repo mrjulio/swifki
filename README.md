@@ -13,7 +13,7 @@ This is my second (improved) version which uses mainly Markdown markup but can a
 
 Version: 0.1
 
-* Geshi - for syntax highliting
+* Geshi - for syntax highlighting
 * jsTree - for sidebar tree menu
 * PHP Markdown - main markup language
 * PHP 5.3.x
@@ -22,21 +22,22 @@ Version: 0.1
 
 ## Install
 
-* Check requirements.php in your browser.
-* Download requirements in their respective folders.
-* Make sure you have write access to `cache/` folder.
+* Check requirements.php in your browser
+* Download requirements in their respective folders
+* Make sure you have write access to `cache/` folder
 
 
 ## Directory structure
 
 * ./cache/ - compiled templates
 * ./libs/  - php libraries like Swifki, GeShi and PHP Markdown
-* ./pages/ - you template pages (php, md, html etc.)
+* ./pages/ - your templates (php, md, html etc.)
 * ./www/   - www root
 
 ## How to use
 
-Just create a file inside `pages` directory :)
+Just create a file inside `pages` directory.
+
 It works with php, html, md and common images.
 
 
@@ -54,13 +55,16 @@ It works with php, html, md and common images.
 ### Styles
 
 Use `./www/assets/user.css` for changing styles - this way you can upgrade to a new version once/if I release a new one :)
+
 Currently the wiki has NO theme. If you can help me by creating one and for this I thank you :)
 
 ### Compiler
 
 By default PHP, MD, HTML and common images are compiled into `cache/` folder.
+
 If you need further requirements check `./libs/Swifki.php` class and look over
 methods prefixed with `compile` to have an overview how things are processed.
+
 Once you understand this, you MUST update `./libs/UserSwifki.php` class and NOT `./libs/Swifki.php`.
 
 
